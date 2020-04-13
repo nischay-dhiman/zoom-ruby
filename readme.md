@@ -1,4 +1,4 @@
-# SaferpayRuby
+# ZoomRuby
 
 A Rails Engine for implementing the Zoom Web SDK with a frontend in ruby.
 
@@ -42,7 +42,6 @@ end
 
 ```
 
-Join a Meeting:
 For joining a meeting we need following parameters:
 ```
   @meeting_hash = {
@@ -64,9 +63,11 @@ join_path(@meeting_hash)
 
 ```
 
-Here are the screenshots of after joining the meeting from Browser
+Frfom here you will be redirected to a path in rails engine which will handle the call joining and getting signature for you.
 
-You can refer to Zoom Web sdk for more information
+Screenshots of after joining the meeting from Browser will be uploaded soon
+
+You can refer to Zoom official website for more information
 
 ## Development
 
