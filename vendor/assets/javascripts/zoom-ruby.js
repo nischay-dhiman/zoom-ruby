@@ -21,7 +21,7 @@
  
     testTool = window.testTool;
 
-    meetingSelector = document.getElementById('join_meeting');
+    var meetingSelector = document.getElementById('join_meeting');
 
     var meetConfig = {
         apiKey: meetingSelector.dataset['apikey'],
