@@ -2,7 +2,7 @@
 
 require 'httparty'
 require 'json'
-require 'Base64'
+require 'base64'
 require 'openssl'
 
 module ZoomRuby

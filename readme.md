@@ -13,16 +13,14 @@ For more information about Saferpay API, please visit
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'zoom-ruby'
+gem 'zoom-ruby', git: 'https://github.com/nischay-dhiman/zoom-ruby', branch: 'master'
 ```
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
 
-    $ gem install zoom-ruby
 
 ## Usage
 
@@ -55,11 +53,11 @@ For joining a meeting we need following parameters:
 
 Now we just need to add one line link_to in our view file or redirect to this path:
 ```
-<%= link_to 'Join Now', join_path(@meeting_hash)%>
+<%= link_to 'Join Now', main_app.join_path(@meeting_hash)%>
 
 # OR
 
-join_path(@meeting_hash)
+main_app.join_path(@meeting_hash)
 
 ```
 
