@@ -4,7 +4,6 @@ require 'httparty'
 require 'json'
 require 'Base64'
 require 'openssl'
-require 'pry'
 
 module ZoomRuby
   class Sdk
