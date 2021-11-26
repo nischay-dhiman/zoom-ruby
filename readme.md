@@ -4,7 +4,7 @@ A Rails Engine for implementing the Zoom Web SDK with a frontend in ruby.
 
 Zoom has given us many SDKs which are open platform that allows third-party developers to build applications and integrations upon Zoom’s video-first unified communications platform. Leverage APIs, Webhooks and SDKs to build custom applications and super-power business with a powerful collaboration suite.
 
-For more information about Saferpay API, please visit
+For more information about this API, please visit
 [https://marketplace.zoom.us/docs/guides](https://marketplace.zoom.us/docs/guides)
 
 
